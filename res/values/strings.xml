@@ -3,5 +3,7 @@
 
     <string name="app_name">DCDCHIDUSB</string>
     <string name="action_settings">Settings</string>
+    <string name="local_service_started">1</string>
+    <string name="notification_voltage" formatted="false">Voltage %.2fV &#x2192; %.2fV</string>
 
 </resources>

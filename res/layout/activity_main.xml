@@ -9,20 +9,17 @@
     tools:context=".MainActivity" >
 
     <Switch
-        android:id="@+id/switchService"
+        android:id="@+id/switchServiceEnabled"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:checked="false"
-        android:text="Monitoring"
-        android:textOff="Off"
-        android:textOn="On" />
-    
+        android:text="Service enabled" />
+
     <LinearLayout
         android:id="@+id/linearLayoutMode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/switchService"
+        android:layout_below="@+id/switchServiceEnabled"
         android:layout_centerHorizontal="true" >
 
         <TextView
